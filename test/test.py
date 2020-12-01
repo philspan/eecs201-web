@@ -3,8 +3,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-PATH = "/mnt/c/Users/pspan/OneDrive - Umich/Fall 2020/EECS 201/eecs201-web/src/test/chromedriver.exe"
-DOMAIN = "https://www.eecs.umich.edu/courses/eecs270/"
+PATH = "/mnt/c/Users/pspan/OneDrive - Umich/Fall 2020/EECS 201/eecs201-web/test/chromedriver.exe"
+DOMAIN = "https://philspan.github.io/eecs201-web/blog"
 
 class InvalidPageError(Exception):
     def __init__(self, *args):
